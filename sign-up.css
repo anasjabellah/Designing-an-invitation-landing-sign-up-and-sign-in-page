@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100;400;500&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:wght@300&family=Rubik:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0.25turn, #aee9eb,  #db77d8);
+}
+
+
+.content-body{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.form-login{
+    display: flex;
+    align-items: center;
+}
+
+.form-login , .image-login {
+    width: 50% ;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.image-login {
+    background: url("img-login/undraw_unlock_24mb.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.form-login .content-form{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button-back{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.button-back a{
+    text-align: center;
+    width: 130px;
+    padding: 8px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px ;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.titel-form{
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+
+.titel-form h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.titel-form p{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.titel-form span{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.input-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.input-name input{
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(245, 197, 247);
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #A831A5;
+}
+
+.input-name input:last-child{
+    margin-right: 0;
+}
+
+.form form {
+    padding: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form input{
+    width: 80%;
+    padding: 10px ;
+    background-color: rgb(248, 240, 240);
+    border: none;
+    outline: none;
+    margin: 20px ;
+    border-bottom: 4px solid #A831A5;
+}
+
+.form form .last-chalid{
+    width: 30%;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    background: linear-gradient(0.25turn, #FB7B30,  #A831A5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+
+}
+
+
+.link-ors{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-or{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.link-or{
+    width: 200px;
+    height: 2px;
+    background-color: grey;
+}
+
+.link-login{
+    width: 100%;
+    padding: 10px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-login button{
+    margin: 5px 10px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.link-login button:first-child{
+    background-color: rgb(218, 218, 218);
+    color: black
+}
+
+
+
+.facebook{
+    background-color: #425daa;
+    
+}
+
+.pinterest{
+    background-color: #e60023;
+
+}
+
+.link-login button p{
+    margin-left: 10px;
+}
+
+.link-login button i{
+   font-size: 18px;
+}
+
+
+a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
