@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1254px) {
+
+        
+    body{
+        width: 100%;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .content-body{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .form-login  {
+        width: 100% ;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    .image-login {
+        display: none;
+    }
+
+    .form-login .content-form {
+        width: 100%;
+    }
+
+
+
+
+
+    .form form .last-chalid {
+        width: 150px;
+    }
+    
+
+
+    .link-login{
+        width: 100%;
+        padding: 10px 0 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .link-login button{
+        width: 140px;
+    }
+}
