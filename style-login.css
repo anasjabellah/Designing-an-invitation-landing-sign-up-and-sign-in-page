@@ -61,7 +61,7 @@ body{
 
 .button-back a{
     text-align: center;
-    width: 130px;
+    width:100px;
     padding: 8px 20px;
     border: none;
     background-color: black;
@@ -160,7 +160,7 @@ body{
     height: 30px;
     background-color: white;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .link-or{
