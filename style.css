@@ -8,6 +8,10 @@ font-family: 'Rubik', sans-serif;
 
 */
 
+body{
+    position: relative;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -615,3 +619,7 @@ button:hover{
     transition: all .5s;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
+
+
