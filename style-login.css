@@ -13,7 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(0.25turn, #FB7B30,  #A831A5);
+    background: linear-gradient(0.25turn, #aee9eb,  #db77d8);
 }
 
 
@@ -25,7 +25,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
     position: relative;
+}
+
+.form-login{
+    display: flex;
+    align-items: center;
 }
 
 .form-login , .image-login {
@@ -35,7 +41,7 @@ body{
 }
 
 .image-login {
-    background: url("img-login/undraw_Access_account_re_8spm\ \(2\).png");
+    background: url("img-login/undraw_unlock_24mb.png");
     background-position: center;
     background-size: cover;
 }
@@ -44,7 +50,7 @@ body{
 
 .form-login .content-form{
     width: 90%;
-    height: 100%;
+    height: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -52,16 +58,19 @@ body{
 
 
 .button-back{
-    width: 100px;
-    height: 80px;
     position: absolute;
-    right: 20px;
     top: 20px;
+    right: 30px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .button-back a{
     text-align: center;
-    width:100px;
+    width: 130px;
     padding: 8px 20px;
     border: none;
     background-color: black;
@@ -72,10 +81,10 @@ body{
     text-decoration: none;
 }
 
-.titel-form{
+.titel-form {
     width: 100%;
-    padding: 0 0 10px 0;
-    margin: 30px 0;
+    height: 20%;
+    padding: 20px;
 }
 
 .titel-form h1{
@@ -91,6 +100,11 @@ body{
 .titel-form span{
     font-size: 18px;
     font-weight: 900;
+}
+
+.form{
+    width: 100%;
+    height: 50%;
 }
 
 
@@ -118,15 +132,19 @@ body{
 
 .form form {
     padding: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .form form input{
-    width: 100%;
+    width: 80%;
     padding: 10px ;
-    margin: 10px 10px 10px 0;
     background-color: rgb(248, 240, 240);
     border: none;
     outline: none;
+    margin: 20px ;
     border-bottom: 4px solid #A831A5;
 }
 
@@ -160,7 +178,7 @@ body{
     height: 30px;
     background-color: white;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .link-or{
